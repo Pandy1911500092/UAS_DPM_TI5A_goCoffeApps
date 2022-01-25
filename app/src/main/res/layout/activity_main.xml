@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="760dp"
+        android:layout_height="955dp"
+        app:srcCompat="@drawable/ic_halaman_login_1911500092"
+        tools:layout_editor_absoluteX="-175dp"
+        tools:layout_editor_absoluteY="-71dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="334dp"
+        android:layout_height="58dp"
+        android:text="Sign Up"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        app:backgroundTint="#EEFFC107"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:text="Sign In"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
